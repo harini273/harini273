@@ -1,0 +1,51 @@
+*{
+    font-family: sans serif;
+}
+body{
+    
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    height:900px;
+
+}
+.container{
+    margin-left: 9%;
+    font-size: 20px;
+    background-color: whitesmoke;
+    width: 49%;
+    margin-top: 5%;
+    padding: 2%;
+    margin-left: 23%;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+label{
+    margin-left: 1px;
+    position: relative;
+}
+button{
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 0, 111, 0.685);
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.05);
+    color: black;
+    background-color: rgb(40, 5, 236);
+}
+h1{
+    margin-left: 50px;
+    font-size:larger;
+}
+input[type=text],input[type=password],input[type=email]{
+    padding: 16px;
+    width:200px;
+    margin-left: 50px;
+}
